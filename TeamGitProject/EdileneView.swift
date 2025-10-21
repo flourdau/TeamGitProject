@@ -9,8 +9,13 @@ import SwiftUI
 
 struct EdileneView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: "rainbow")
+            .renderingMode(.original)
+            .font(.system(size: 70, weight: .bold))
+        Text("Edilene")
+            .font(.largeTitle)
     }
+        
 }
 
 #Preview {
