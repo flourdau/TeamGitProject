@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Untitled.swift
 //  EdileneDaSilvaView
 //
 //  Created by apprenant76 on 21/10/2025.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct EdileneDaSilvaView: View {
     var body: some View {
         VStack {
             Text("Edilene Assunçao da Silva")
@@ -17,5 +17,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    EdileneDaSilvaView()
 }
